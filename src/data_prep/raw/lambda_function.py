@@ -2,7 +2,7 @@ import json
 import boto3
 from botocore.vendored import requests
 
-STREAM_NAME = 'punk_data_stream'
+STREAM_NAME = 'punk_data_stream_terraform'
 KINESIS_CLIENT = boto3.client('kinesis')
 
 
@@ -17,4 +17,6 @@ def lambda_handler(event, lambda_context):
         Data=json.dumps(data),
         PartitionKey="partition_key"
     )
- 
+ 	
+ 	return data
+ 	
