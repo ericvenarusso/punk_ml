@@ -7,7 +7,7 @@ Previsão do IBU de Cervejas
 1. [Instalação](#installation)
 2. [Motivação do Projeto](#motivation)
 3. [Arquitetura Funcional](#arquitecture)
-4. [Descrição dos arquivos](#files)
+4. [Descrição dos arquivos](#files_desc)
 5. [Licensa, Autores, e Agradecimentos](#licensing)
 
 ## Instalação <a name="installation"></a>
@@ -56,7 +56,7 @@ Com os dados processados é então treinado um modelo de Machine Learning.
 ## Terraform
 A arquitetura de ingestão foi criada de forma que seja reproduzível em outras contas.
 
-## Descrição dos arquivos. <a name="files"></a>
+## Descrição dos arquivos. <a name="files_desc"></a>
 * **notebooks/data_analisys.ipynb**: Notebook com a Análise de Dados. </br>
 * **notebooks/train.ipynb**: Notebook com a criação do modelo de Machine Learning. </br>
 * **scripts/create_terraform_env.sh**: Cria toda a infraestrutura necessária para a ingestão dos dados na AWS. </br>
