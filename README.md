@@ -29,7 +29,7 @@ Para realizar a destruição processo de ingestão de dados(Infraestrutura funci
 ` sh scripts/destroy_aws_env.sh `
 
 ## Motivação do Projeto <a name="motivation"></a>
-Realizar a implentação de uma arquitetura completa que consome a <a  href='https://punkapi.com/documentation/v2'>Punk API</a> e também o treinamento de um modelo de machine learning que preve o IBU das Cervejas.
+Realizar a implentação de uma arquitetura completa que consome a <a  href='https://punkapi.com/documentation/v2'>Punk API</a> e também o treinamento de um modelo de machine learning que prevê o IBU das Cervejas.
 
 A Punk API possui os dados da cervejaria Brewdog's, é possível realizar pesquisas com diversos tipos de filtros. A API é totalmente gratuita e open source.
 
@@ -75,6 +75,6 @@ A arquitetura de ingestão foi criada de forma que seja reproduzível em outras 
 * **terraform/s3_bucket_raw.tf**: Arquivo terraform que cria o bucket raw no S3 Storage. </br>
 
 ## Licensa, Autores, e Agradecimentos. <a name="licensing"></a>
-Fico muito feliz com a realização desse projeto, pois foi um grande desafio utilizar o serviço de Cloud da AWS e fazer com que a arquitetura seja reproduzível utilizando Terraform, ambas são incriveis tecnologias que nos auxiliam muito no processo do desenvolvimento de uma arquitetura de ML completa e robusta.
+Fico muito feliz com a realização desse projeto, pois foi um grande desafio utilizar o serviço de Cloud da AWS e fazer com que a arquitetura seja reproduzível utilizando Terraform, ambas são incríveis tecnologias que nos auxiliam muito no processo do desenvolvimento de uma arquitetura de ML completa e robusta.
 </br>
 **Eric Buzato Venarusso**
