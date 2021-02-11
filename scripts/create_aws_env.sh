@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export AWS_DEFAULT_REGION="us-east-1"
+
 mkdir lambda
 
 cp src/data_prep/raw/lambda_function.py .

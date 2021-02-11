@@ -17,6 +17,6 @@ def lambda_handler(event, lambda_context):
         Data=json.dumps(data),
         PartitionKey="partition_key"
     )
- 	
- 	return data
- 	
+ 
+    return data
+ 
